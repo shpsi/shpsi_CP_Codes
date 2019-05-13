@@ -1,3 +1,5 @@
+// Problem Link :: https://www.codechef.com/problems/TEST
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
@@ -52,11 +54,14 @@ inline int inv(int input, int p = MOD) {return MODpow(input, p - 2, p);}
 inline int sign(ld x) {return x < -EPS ? -1 : x > +EPS;}
 inline void addMOD(int& input, int val, int p = MOD) {if ((input = (input + val)) >= p) input -= p;}
 inline void subMOD(int& input, int val, int p = MOD) {if ((input = (input - val)) < 0) input += p;}
-string s="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()_+";
+
 int main(){
-	fastio;
-	string input;
-	cout<<s<<endl;
+    int num;
+    cin>>num;
+    while(num!=42){
+        cout<<num<<endl;
+        cin>>num;
+    }
 	etm;
 	return Accepted;
 }
