@@ -52,11 +52,9 @@ inline int inv(int input, int p = MOD) {return MODpow(input, p - 2, p);}
 inline int sign(ld x) {return x < -EPS ? -1 : x > +EPS;}
 inline void addMOD(int& input, int val, int p = MOD) {if ((input = (input + val)) >= p) input -= p;}
 inline void subMOD(int& input, int val, int p = MOD) {if ((input = (input - val)) < 0) input += p;}
-string s="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()_+";
+
 int main(){
-	fastio;
-	string input;
-	cout<<s<<endl;
+
 	etm;
 	return Accepted;
 }

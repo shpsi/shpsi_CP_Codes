@@ -54,7 +54,12 @@ inline void addMOD(int& input, int val, int p = MOD) {if ((input = (input + val)
 inline void subMOD(int& input, int val, int p = MOD) {if ((input = (input - val)) < 0) input += p;}
 
 int main(){
-
+    int num;
+    cin>>num;
+    while(num!=42){
+        cout<<num<<endl;
+        cin>>num;
+    }
 	etm;
 	return Accepted;
 }
