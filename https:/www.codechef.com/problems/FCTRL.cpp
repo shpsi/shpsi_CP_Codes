@@ -54,14 +54,18 @@ inline void addMOD(int& input, int val, int p = MOD) {if ((input = (input + val)
 inline void subMOD(int& input, int val, int p = MOD) {if ((input = (input - val)) < 0) input += p;}
 
 int main(){
-    int a,b;
-    cin>>a>>b;
-    int ans = a-b;
-    if(ans%10!=9)
-        ans++;
-    else
-        ans--;
-    cout<<ans<<endl;
+    int tc;
+    cin>>tc;
+    while(tc--){
+        ll x;
+        cin>>x;
+        int curr=5,count=0;
+        while(x/curr>0){
+            count+=x/curr;
+            curr*=5;
+        }
+        cout<<count<<endl;
+    }
 	etm;
 	return Accepted;
 }
