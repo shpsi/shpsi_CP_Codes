@@ -54,21 +54,8 @@ inline void addMOD(int& input, int val, int p = MOD) {if ((input = (input + val)
 inline void subMOD(int& input, int val, int p = MOD) {if ((input = (input - val)) < 0) input += p;}
 
 int main(){
-    int tc;
-    cin>>tc;
-    while(tc--){
-        int n;
-        cin>>n;
-        vector<int> a;
-        a.resize(n);
-        for(int i=0;i<n;++i)
-            cin>>a[i];
-        sort(all(a));
-        int ans=INF;
-        for(int i=0;i<n-1;++i)
-            ans=min(ans,a[i+1]-a[i]);
-        cout<<ans<<endl;
-    }
+    fastio;
+
 	etm;
 	return Accepted;
 }

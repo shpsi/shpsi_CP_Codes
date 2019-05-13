@@ -54,7 +54,7 @@ inline void addMOD(int& input, int val, int p = MOD) {if ((input = (input + val)
 inline void subMOD(int& input, int val, int p = MOD) {if ((input = (input - val)) < 0) input += p;}
 
 int main(){
-
+    fastio;
 	etm;
 	return Accepted;
 }
