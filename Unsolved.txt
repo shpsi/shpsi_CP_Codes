@@ -4,4 +4,5 @@ http://tutorials.jenkov.com/ood/code-reuse-action-and-context-reuse.html
 http://tutorials.jenkov.com/ood/index.html
 http://tutorials.jenkov.com/exception-handling-strategies/overview.html
 http://tutorials.jenkov.com/data-streaming/index.html
-
+https://en.wikipedia.org/wiki/Non-blocking_I/O_(Java)
+https://en.wikipedia.org/wiki/Supervisory_program
