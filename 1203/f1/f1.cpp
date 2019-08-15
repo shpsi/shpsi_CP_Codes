@@ -1,6 +1,6 @@
 /*
  *  Author: shpsi
- *  Time: 2019-08-15 22:13:19  
+ *  Time: 2019-08-16 03:09:57  
 **/
 #include <bits/stdc++.h>
 using namespace std;
@@ -56,9 +56,36 @@ inline int inv(int input, int p = MOD) {return MODpow(input, p - 2, p);}
 inline int sign(ld x) {return x < -EPS ? -1 : x > +EPS;}
 inline void addMOD(int& input, int val, int p = MOD) {if ((input = (input + val)) >= p) input -= p;}
 inline void subMOD(int& input, int val, int p = MOD) {if ((input = (input - val)) < 0) input += p;}
-
+const int MAXN = 110;
+int n, r;
+pair<int,int> t[MAXN];
+bool comparator(pair<int,int> x, pair<int,int> y){
+    if(x.ss >= 0 && y.ss >= 0)
+        return x.ff < y.ff;
+    if(x.ss < 0 &&  y.ss < 0)
+        return x.ff + x.ss > y.ff + y.ss;
+    return x.ss >=0;
+}
 int main(){
     fastio;
+    cin >> n >> r;
+    FOR(i,1,n){
+        cin >> t[i].ff >> t[i].ss;
+    }
+    sort(t+1,t+n+1,comparator);
+    FOR(i,1,n){
+        if(r < t[i].ff){
+            cout<<"NO"<<endl;
+            return Accepted;
+        }
+        r += t[i].ss;
+    }
+    if(r<0){
+        cout<<"NO"<<endl;
+    }
+    else{
+        cout<<"YES"<<endl;
+    }
     etm;
     return Accepted;
 }

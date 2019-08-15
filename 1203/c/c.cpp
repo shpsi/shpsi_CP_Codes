@@ -59,6 +59,23 @@ inline void subMOD(int& input, int val, int p = MOD) {if ((input = (input - val)
 
 int main(){
     fastio;
+    int n;
+    cin>>n;
+    ll g=0;
+    FOR(i,0,n-1){
+        ll x;
+        cin>>x;
+        g = gcd(g,x);
+    }
+    ll ans = 0;
+    for(int i=1;i*1ll*i<=g;++i){
+        if(g%i==0){
+            ++ans;
+            if(i!=g/i)
+                ++ans;
+        }
+    }
+    cout<<ans<<endl;
     etm;
     return Accepted;
 }
