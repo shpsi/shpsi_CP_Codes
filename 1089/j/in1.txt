@@ -1,0 +1,12 @@
+16
+fun while return var { } ( ) , ; > = + ++ - --
+9
+fun fib(num) { # compute fibs
+  var return_value = 1, prev = 0, temp;
+  while (num > 0) {
+    temp = return_value; return_value = return_value + prev;
+    prev = temp;
+    num--;
+  }
+  return return_value;
+}

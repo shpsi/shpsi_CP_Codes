@@ -1,0 +1,6 @@
+17
+int f(int n)
+{
+if (n < 100) return 17;
+if (n > 99) return 27;
+}

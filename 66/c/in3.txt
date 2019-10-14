@@ -1,0 +1,2 @@
+C:<span class="tex-span">\</span>file<span class="tex-span">\</span>file<span class="tex-span">\</span>file<span class="tex-span">\</span>file<span class="tex-span">\</span>file.txt
+C:<span class="tex-span">\</span>file<span class="tex-span">\</span>file<span class="tex-span">\</span>file<span class="tex-span">\</span>file2<span class="tex-span">\</span>file.txt

@@ -1,0 +1,12 @@
+start 335 1
+arrive 340 2
+work 340 370 2
+arrive 372 3
+work 372 401 3
+arrive 406 1
+end
+start 335 1
+arrive 340 2
+work 340 370 2
+arrive 375 1
+end

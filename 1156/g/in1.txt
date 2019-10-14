@@ -1,0 +1,5 @@
+4
+c=aa#bb
+d12=c
+res=c^d12
+tmp=aa$c

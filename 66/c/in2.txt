@@ -1,0 +1,3 @@
+C:<span class="tex-span">\</span>folder1<span class="tex-span">\</span>folder2<span class="tex-span">\</span>folder3<span class="tex-span">\</span>file1.txt
+C:<span class="tex-span">\</span>folder1<span class="tex-span">\</span>folder2<span class="tex-span">\</span>folder4<span class="tex-span">\</span>file1.txt
+D:<span class="tex-span">\</span>folder1<span class="tex-span">\</span>file1.txt

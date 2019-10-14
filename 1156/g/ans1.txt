@@ -1,0 +1,3 @@
+2
+aaaa=aa#bb
+res=aaaa^aaaa

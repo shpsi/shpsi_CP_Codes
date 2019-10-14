@@ -1,0 +1,4 @@
+3
+katya 1 612 
+petr 1 12 
+karl 1 612

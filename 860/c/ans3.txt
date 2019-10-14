@@ -1,0 +1,6 @@
+5
+move 1 5
+move 11 1
+move 1111 2
+move 111 4
+move 11111 3

@@ -1,0 +1,5 @@
+4
+move 3 1
+move 01 5
+move 2extra 4
+move 99 3

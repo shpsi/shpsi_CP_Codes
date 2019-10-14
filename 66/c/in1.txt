@@ -1,0 +1,1 @@
+C:<span class="tex-span">\</span>folder1<span class="tex-span">\</span>file1.txt

@@ -1,0 +1,7 @@
+6
+RGB
+GRG
+BBB
+GGR
+BRG
+BRB
